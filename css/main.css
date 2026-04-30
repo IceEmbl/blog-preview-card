@@ -48,6 +48,11 @@ h1 {
     font-size: 24px;
 }
 
+h1:hover, h1:focus {
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+}
+
 footer {
     display: flex;
     align-items: center;
