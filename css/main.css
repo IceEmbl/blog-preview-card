@@ -48,8 +48,12 @@ h1 {
     font-size: 24px;
 }
 
-h1:hover, h1:focus {
-    cursor: pointer;
+a, a:visited {
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+}
+
+a:hover, a:focus-visible {
     color: hsl(47, 88%, 63%);
 }
 
