@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+
+article {
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 90%;
+    padding: 24px;
+    text-align: left;
+    box-shadow: 8px 8px 0px black;
+    border: 1px solid black;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+}
+
+.foundations-paragraph {
+    color: hsl(0, 0%, 42%);
+    max-width: 320px;
+    line-height: 1.5;
+}
+
+.iliustration {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.header-paragraph {
+    background-color: hsl(47, 88%, 63%);
+    max-width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+}
+
+h1 {
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+    font-size: 24px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+}
+
+footer img {
+    width: 32px;
+    height: 32px;
+}
+
+time {
+    font-size: 14px;
+}
